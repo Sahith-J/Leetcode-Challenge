@@ -15,8 +15,6 @@ class Solution:
             value=v1+v2+carry
             carry=value//10
             value=value%10
-            
-
             cur.next=ListNode(value)
             cur=cur.next
             l1=l1.next if l1 else None
